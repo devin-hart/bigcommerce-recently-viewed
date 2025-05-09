@@ -12,7 +12,7 @@ The "Recently Viewed" addon allows guests on the site to keep track of the produ
 - Pull the included `assets` and `templates` folders into your theme.
 
 ### JavaScript
-- Import our `rec-view.js` file into `global.js`
+- Import the `rec-view.js` file into `global.js`
 
     `global.js`
     ```javascript
