@@ -5,7 +5,7 @@ import {
 import { createFocusTrap } from "focus-trap";
 
 export default function recView(context) {
-    console.log('IntuitSolutions.net -- Recently Viewed');
+    console.log('Recently Viewed');
 
     if (localStorage.getItem('rec-view-on') === null) {
         localStorage.setItem('rec-view-on', true);

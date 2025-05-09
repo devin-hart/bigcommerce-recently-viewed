@@ -12,32 +12,18 @@ The "Recently Viewed" addon allows guests on the site to keep track of the produ
 - Pull the included `assets` and `templates` folders into your theme.
 
 ### JavaScript
-- Import our `rec-view.js` file into either `global.js` or `its-global.js`
+- Import our `rec-view.js` file into `global.js`
 
     `global.js`
     ```javascript
-    // IntuitSolutions.net -- Recently Viewed
     import recView from './custom/rec-view';
     ```
 
-    `its-global.js`
-    ```javascript
-    // IntuitSolutions.net -- Recently Viewed
-    import recView from './rec-view';
-    ```
-
-- Call our Recently Viewed code:
+- Call the Recently Viewed code:
 
     `global.js`, paste the following at the bottom of the `onReady()` method:
     ```javascript
-    // IntuitSolutions.net -- Recently Viewed
     recView(this.context);
-    ```
-
-    `its-global.js`, paste the following anywhere in our `default function`:
-    ```javascript
-    // IntuitSolutions.net -- Recently Viewed
-    recView(context);
     ```
 
 - Configure Rec View settings (optional):
@@ -61,7 +47,7 @@ The "Recently Viewed" addon allows guests on the site to keep track of the produ
 - Import the included `_its_rec-view.scss` stylesheet into `theme.scss`.
 
     ```scss
-    @import 'custom/its_rec-view';
+    @import 'custom/rec-view';
     ```
 
 - Test the component by clicking through different product pages and make sure it's picking up products and the View All Products button works
